@@ -1,6 +1,6 @@
 var dictS = ["Seriously", "Savagely", "Socially", "Strangely", "Spooky", "Sweet", "Sweaty", "Stupidly"];
 var dictJ = ["Judicious", "Jet-fueled", "Jurassic", "Juvenile", "Jumbo", "Jacked"];
-var dictW = ["Warthogs", "Winnebagos", "Wombats", "Weirdos", "Walruses", "Wookies"];
+var dictW = ["Warthog", "Winnebago", "Wombat", "Weirdo", "Walrus", "Wookie"];
 
 randS = Math.floor(Math.random() * dictS.length);
 randJ = Math.floor(Math.random() * dictJ.length);
