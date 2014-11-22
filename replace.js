@@ -1,6 +1,19 @@
-var dictS = ["Seriously", "Savagely", "Socially", "Strangely", "Spooky", "Sweet", "Sweaty", "Stupidly"];
-var dictJ = ["Judicious", "Jet-fueled", "Jurassic", "Juvenile", "Jumbo", "Jacked"];
-var dictW = ["Warthog", "Winnebago", "Wombat", "Weirdo", "Walrus", "Wookie"];
+var dictS = [
+  "Seriously", "Savagely", "Socially", "Strangely", "Spooky", "Sweet", 
+  "Sweaty", "Stupidly", "Sadistically", "Salacious", "Salient", 
+  "Salvageable", "Sanitary", "Satirical", "Sentient", "Severely",
+  "Sheepish", "Spinning", "Shooting", "Slippery"
+  ];
+var dictJ = [
+  "Judicious", "Jet-fueled", "Jurassic", "Juvenile", "Jumbo", "Jacked",
+  "Juicy", "Jazzy", "Jousting", "Jumpable", "Jaded", "Jesuit", 
+  "Jaywalking", "Jealous", "Jumpy", "Jolly"
+  ];
+var dictW = [
+  "Warthog", "Winnebago", "Wombat", "Weirdo", "Walrus", "Wookie", 
+  "Werewolf", "Wagon", "Watermelon", "Wasp", "Wannabee", "Watcher",
+  "Walker", "Woman", "Winter", "Womanizer", "Witch", "Whisperer"
+  ];
 
 function walk(node){
   // I stole this function from here:
